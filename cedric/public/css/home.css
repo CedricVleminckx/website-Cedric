@@ -1,0 +1,21 @@
+body{
+  background-image: url("../images/start.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.slogan{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  line-height: 1rem;
+  text-align: center;
+}
+#name{
+  font-size: 5rem;
+}

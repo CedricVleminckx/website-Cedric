@@ -1,0 +1,38 @@
+.content{
+  margin-left: 15%;
+  margin-top: 6rem;
+}
+#profilePic{
+  height: 15rem;
+  border-radius: 100%;
+  float: left;
+  margin-top: 4rem;
+  margin-right: 2rem;
+}
+.paragraph1{
+  width: 55rem;
+}
+.paragraph2{
+  margin-top: 4rem;
+  min-width: 100%;
+  float: left;
+}
+
+.skills{
+  display: block;
+  margin-top: -2rem;
+}
+.skills div{
+  width: 15%;
+  float: left;
+}
+.skills div+div{
+  margin-left: 4rem;
+}
+.skills ul{
+list-style-type:circle;
+}
+.skills p{
+  border-bottom:#16a6b6 solid 0.1rem ;
+  margin-bottom: 2rem;
+}
