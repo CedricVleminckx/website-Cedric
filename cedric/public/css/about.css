@@ -12,6 +12,7 @@
 .content{
   margin-left: 15%;
   margin-top: 6rem;
+	width: 70%;
 }
 
 /**Who am I paragraph*/
@@ -22,13 +23,13 @@
   margin-right: 2rem;
 }
 .whoAmI{
-  width: 55rem;
+  width: 100%;
 }
 
 /*Skills paragraph*/
 .skillsPara{
   margin-top: 4rem;
-  min-width: 100%;
+  width: 100%;
   float: left;
 }
 .skills{
@@ -56,10 +57,10 @@ list-style-type:circle;
   margin-top: 4rem;
 }
 .hobby p:last-of-type{
-  width: 75%;
+  width: 100%;
 }
 .hobby img{
-  width: 37%;
+  width: 49%;
   margin-top: 2rem;
 }
 
@@ -91,9 +92,10 @@ footer div{
   }
 }
 @media (max-width: 675px){
+	/*Who am I*/
   .whoAmI{
     text-align: center;
-    width: 85%;
+    width: 100%;
   }
   .whoAmI p:last-of-type{
     text-align: left;
@@ -101,6 +103,21 @@ footer div{
   #profilePic{
     float: none;
   }
+
+	/*skills paragraph*/
+	.skillsPara .title{
+		min-width: 110%;
+	}
+	.skillsPara div{
+		width: 100%;
+	}
+
+	/*hobby paragraph*/
+	.hobby img{
+	  width: 100%;
+	}
+
+	/*navigation*/
   .nav ul{
     margin-left: 28%;
     margin-right: 9%;

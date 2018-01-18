@@ -67,4 +67,9 @@ footer div{
 	.contact{
 	  width: 100%;
 	}
+	/*navigation*/
+  .nav ul{
+    margin-left: 28%;
+    margin-right: 9%;
+  }
 }
