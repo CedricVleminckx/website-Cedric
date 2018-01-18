@@ -1,0 +1,46 @@
+/*Navbar background*/
+.background{
+	background-image: url("../images/start.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+  min-width: 100%;
+}
+
+.nav{
+	width: auto;
+  margin-right: 3.7%;
+  padding-top: 3rem;
+}
+
+/**Content wrapper*/
+.content{
+  margin-left: 15%;
+  margin-top: 6rem;
+	width: 70%;
+}
+
+/*Footer*/
+footer{
+  margin-top: 4rem;
+  text-align: center;
+  float: left;
+  background-image: url("../images/footer.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+  min-width: 100%;
+}
+footer div{
+  line-height: 10rem;
+}
+
+@media (max-width: 675px){
+	/*navigation*/
+	.nav{
+		width: auto;
+		margin-right: 15.2%;
+  }
+}

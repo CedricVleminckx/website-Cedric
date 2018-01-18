@@ -3,6 +3,7 @@
 
 @section('css')
 <link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/shared.css">
 @endsection
 
 @section('navbar')
