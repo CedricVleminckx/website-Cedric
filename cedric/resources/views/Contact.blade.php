@@ -21,6 +21,7 @@
       {!! Form::text('Name', null, array('placeholder' => 'Name')) !!}
       {!! Form::email('Email', null, array('placeholder' => 'Email')) !!}
       {!! Form::textarea('question', null, array('placeholder' => 'Your question here!')) !!}
+      {!! Form::submit('Send message', array('class' => 'submit')) !!}
     {!! Form::close() !!}
   </div>
 </div>

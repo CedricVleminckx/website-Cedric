@@ -15,6 +15,7 @@
   width: 70%;
 }
 
+/*Google maps*/
 #map {
  height: 40rem;
  width: 50%;
@@ -22,6 +23,8 @@
  margin-right: 4rem;
  margin-top: 1rem;
 }
+
+/*Contact*/
 .contact{
   float: left;
   width: 40%;
@@ -29,9 +32,16 @@
 .contact *{
   width: 100%;
   border: none;
-  padding: 1rem 01rem 1rem 1rem;
+  padding: 1rem 0rem 1rem 0rem;
   line-height: 2rem;
   margin-bottom:1rem;
+}
+.submit{
+	margin-top: 2rem;
+}
+.submit:hover{
+	color: white;
+	background-color: #16a6b6;
 }
 
 /*Footer*/
@@ -48,4 +58,13 @@ footer{
 }
 footer div{
   line-height: 10rem;
+}
+
+@media (max-width: 675px){
+  #map{
+		width: 100%;
+	}
+	.contact{
+	  width: 100%;
+	}
 }
