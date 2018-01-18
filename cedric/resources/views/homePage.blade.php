@@ -9,6 +9,7 @@
 <li><a class="active" href="{{url('/Home')}}">Home</a></li>
 <li><a href="{{url('/About')}}">About</a></li>
 <li><a href="{{url('/Contact')}}">Contact</a></li>
+<li><a target="_blank" href="{{asset('/images/cv.pdf')}}">My CV</a></li>
 @endsection
 
 @section('content')

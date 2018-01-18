@@ -8,6 +8,13 @@ body{
   max-width: 100%;
 }
 
+/**navbar*/
+.nav{
+	width: auto;
+  margin-right: 5%;
+  margin-top: 3rem;
+}
+
 .slogan{
   position: absolute;
   left: 50%;
@@ -26,9 +33,10 @@ body{
     line-height: 5rem;
   }
 }
+
 @media (max-width: 675px){
-  .nav ul{
-    margin-left: 25%;
-    margin-right: 11.8%;
+  .nav{
+		width: auto;
+		margin-right: 22.4%;
   }
 }

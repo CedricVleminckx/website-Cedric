@@ -8,6 +8,12 @@
   min-width: 100%;
 }
 
+.nav{
+	width: auto;
+  margin-right: 3.7%;
+  padding-top: 3rem;
+}
+
 /**Content wrapper*/
 .content{
   margin-left: 15%;
@@ -45,6 +51,7 @@
 }
 .skills ul{
 list-style-type:circle;
+margin-left: 1.5rem;
 }
 .skills p{
   border-bottom:#16a6b6 solid 0.1rem ;
@@ -118,8 +125,8 @@ footer div{
 	}
 
 	/*navigation*/
-  .nav ul{
-    margin-left: 28%;
-    margin-right: 9%;
+	.nav{
+		width: auto;
+		margin-right: 20%
   }
 }

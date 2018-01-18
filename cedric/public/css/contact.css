@@ -8,6 +8,12 @@
   min-width: 100%;
 }
 
+.nav{
+	width: auto;
+  margin-right: 3.7%;
+  padding-top: 3rem;
+}
+
 /**Content wrapper*/
 .content{
   margin-left: 15%;
@@ -68,8 +74,8 @@ footer div{
 	  width: 100%;
 	}
 	/*navigation*/
-  .nav ul{
-    margin-left: 28%;
-    margin-right: 9%;
+	.nav{
+		width: auto;
+		margin-right: 20%;
   }
 }
