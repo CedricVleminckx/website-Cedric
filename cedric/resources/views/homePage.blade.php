@@ -8,7 +8,7 @@
 @section('navbar')
 <li><a class="active" href="{{url('/Home')}}">Home</a></li>
 <li><a href="{{url('/About')}}">About</a></li>
-<li><a href="#">Contact</a></li>
+<li><a href="{{url('/Contact')}}">Contact</a></li>
 @endsection
 
 @section('content')

@@ -1,0 +1,51 @@
+/*Navbar background*/
+.background{
+	background-image: url("../images/start.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+  min-width: 100%;
+}
+
+/**Content wrapper*/
+.content{
+  margin-left: 15%;
+  margin-top: 6rem;
+  width: 70%;
+}
+
+#map {
+ height: 40rem;
+ width: 50%;
+ float: left;
+ margin-right: 4rem;
+ margin-top: 1rem;
+}
+.contact{
+  float: left;
+  width: 40%;
+}
+.contact *{
+  width: 100%;
+  border: none;
+  padding: 1rem 01rem 1rem 1rem;
+  line-height: 2rem;
+  margin-bottom:1rem;
+}
+
+/*Footer*/
+footer{
+  margin-top: 4rem;
+  text-align: center;
+  float: left;
+  background-image: url("../images/footer.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+  min-width: 100%;
+}
+footer div{
+  line-height: 10rem;
+}
