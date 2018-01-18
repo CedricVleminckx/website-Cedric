@@ -4,7 +4,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100%;
+  min-height: 10rem;;
   max-width: 100%;
 }
 
@@ -17,5 +17,18 @@ body{
   text-align: center;
 }
 #name{
+  margin-bottom: 4rem;
   font-size: 5rem;
+}
+
+@media (max-width: 960px){
+  #name{
+    line-height: 5rem;
+  }
+}
+@media (max-width: 675px){
+  .nav ul{
+    margin-left: 25%;
+    margin-right: 11.8%;
+  }
 }

@@ -8,11 +8,14 @@
         <link rel="stylesheet" href="css/default.css">
     </head>
     <body>
+      <div class="background">
         <div class="nav">
           <ul>
             @yield('navbar')
           </ul>
         </div>
+      </div>
+
       @yield('content')
     </body>
 </html>

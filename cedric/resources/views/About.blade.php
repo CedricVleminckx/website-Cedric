@@ -14,13 +14,12 @@
 @section('content')
 
 <div class="content">
-  <div class="paragraph1">
+  <div class="whoAmI">
     <img id="profilePic" src="{{asset('images/cedric.png')}}" alt="">
-    <p class="hidden">s</p>
     <p class="title">Who am I?</p>
-    <p>I am a Cedric Vleminckx. I am 20 years old and student at the technologiecampus Gent. I am  adeveloper with a heart for backend applications.</p>
+    <p>I am Cedric Vleminckx. I&apos;m 20 years old and student at the campus of technology Gent. I&apos;m an enthusiastic developer with a heart for backend applications.</p>
   </div>
-  <div class="paragraph2">
+  <div class="skillsPara">
     <p class="title">What are my skills?</p>
     <div class="skills">
       <div class="web">
@@ -34,7 +33,7 @@
       <div class="progLang">
         <p>Languages</p>
         <ul>
-          <li>C#</li>
+          <li>C&#35;</li>
           <li>Java</li>
           <li>SQL</li>
         </ul>
@@ -56,6 +55,18 @@
       </div>
     </div>
   </div>
+  <div class="hobby">
+    <p class="title">Do I have hobbies?</p>
+    <p>Yes! I do have hobbies. I practise jiu&#45;jitsu at my local sports hall. In the winter I love to go snowboarding and enjoy the beautiful view of the mountains. In the summer I ride my longboard and I go sailing sometimes.</p>
+    <img src="{{asset('/images/snowboard.jpg')}}" alt="view of mountains">
+    <img src="{{asset('/images/kroatie.jpg')}}" alt="view over water">
+  </div>
 </div>
+
+<footer>
+  <div class="copy">
+    <p>&copy;Cedric Vleminckx 2017</p>
+  </div>
+</footer>
 
 @endsection
