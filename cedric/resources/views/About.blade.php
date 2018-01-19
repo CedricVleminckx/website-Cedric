@@ -61,7 +61,7 @@
     <p class="title">Do I have hobbies?</p>
     <p>Yes! I do have hobbies. I practise jiu&#45;jitsu at my local sports hall. In the winter I love to go snowboarding and enjoy the beautiful view of the mountains. In the summer I ride my longboard and I go sailing sometimes.</p>
     <img src="{{asset('/images/snowboard.jpg')}}" alt="view of mountains">
-    <img src="{{asset('/images/kroatie.jpg')}}" alt="view over water">
+    <img src="{{asset('/images/longboard.jpeg')}}" alt="view over water">
   </div>
 </div>
 

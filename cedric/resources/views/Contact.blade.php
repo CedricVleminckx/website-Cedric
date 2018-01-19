@@ -35,8 +35,4 @@
   </div>
 </footer>
 
-<script src="{{asset('js/jquery-3.1.1.min.js')}}"></script>
-<script src="{{asset('js/maps.js')}}"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7M5AeBioBbySfnQT9TTaeDKVJFmkjQX4&callback=initMap" async defer></script>
-
 @endsection
