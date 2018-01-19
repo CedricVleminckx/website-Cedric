@@ -1,6 +1,10 @@
 {{-- extend the parent tpl --}}
 @extends('layout.master')
 
+@section('title')
+Home | Cedric Vleminckx
+@endsection
+
 @section('css')
 <link rel="stylesheet" href="css/home.css">
 @endsection
