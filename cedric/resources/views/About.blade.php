@@ -67,7 +67,7 @@
 
 <footer>
   <div class="copy">
-    <p>&copy;Cedric Vleminckx 2017</p>
+    <p>&copy;Cedric Vleminckx 2018</p>
   </div>
 </footer>
 

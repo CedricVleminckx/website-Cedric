@@ -17,7 +17,7 @@
 
 <div class="content">
   <p class="title">Feel free to contact me</p>
-  <div id="map"></div>
+  <img src="{{asset('/images/contact.jpg')}}" alt="">
   <div class="contact">
     {!! Form::open(['url' => '/Contact']) !!}
       {!! Form::token() !!}
@@ -31,7 +31,7 @@
 
 <footer>
   <div class="copy">
-    <p>&copy;Cedric Vleminckx 2017</p>
+    <p>&copy;Cedric Vleminckx 2018</p>
   </div>
 </footer>
 
