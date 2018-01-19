@@ -19,11 +19,11 @@
   <p class="title">Feel free to contact me</p>
   <img src="{{asset('/images/contact.jpg')}}" alt="">
   <div class="contact">
-    {!! Form::open(['url' => '/Contact']) !!}
+    {!! Form::open(['url' => '/sendmail']) !!}
       {!! Form::token() !!}
       {!! Form::text('Name', null, array('placeholder' => 'Name')) !!}
       {!! Form::email('Email', null, array('placeholder' => 'Email')) !!}
-      {!! Form::textarea('question', null, array('placeholder' => 'Your question here')) !!}
+      {!! Form::textarea('Question', null, array('placeholder' => 'Your question here')) !!}
       {!! Form::submit('Send message', array('class' => 'submit')) !!}
     {!! Form::close() !!}
   </div>

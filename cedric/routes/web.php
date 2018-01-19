@@ -23,3 +23,4 @@ Route::get('/About', function(){
 Route::get('/Contact', function(){
   return view('Contact');
 });
+Route::post('/sendmail', 'MailController@sendmail');
