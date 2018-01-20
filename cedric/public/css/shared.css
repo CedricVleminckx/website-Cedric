@@ -1,9 +1,10 @@
 /*Navbar background*/
 .background{
-	background-image: url("../images/start.jpg");
+	background-image: url("../images/railroad.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+	background-position: center;
   height: 10rem;
   min-width: 100%;
 }
@@ -26,7 +27,8 @@ footer{
   margin-top: 4rem;
   text-align: center;
   float: left;
-  background-image: url("../images/footer.png");
+  background-image: url("../images/railroad.jpeg");
+	background-position: top;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,6 +38,9 @@ footer{
 footer div{
   line-height: 10rem;
 }
+footer p{
+	color: white;
+}
 
 @media (max-width: 675px){
 	/*navigation*/
@@ -43,4 +48,7 @@ footer div{
 		width: auto;
 		margin-right: 15.2%;
   }
+	.background{
+		background-position: left;
+	}
 }

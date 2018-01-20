@@ -21,7 +21,7 @@ Contact | Cedric Vleminckx
 
 <div class="content">
   <p class="title">Feel free to contact me</p>
-  <img src="{{asset('/images/contact.jpg')}}" alt="">
+  <img src="{{asset('/images/phone.jpg')}}" alt="">
   <div class="contact">
     {!! Form::open(['url' => '/sendmail']) !!}
       {!! Form::token() !!}
@@ -31,6 +31,7 @@ Contact | Cedric Vleminckx
       {!! Form::submit('Send message', array('class' => 'submit')) !!}
     {!! Form::close() !!}
   </div>
+  <div id="map"></div>
 </div>
 
 <footer>
@@ -39,4 +40,6 @@ Contact | Cedric Vleminckx
   </div>
 </footer>
 
+<script type="text/javascript" src="{{ asset('/js/jquery-3.1.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/maps.js') }}"></script>
 @endsection

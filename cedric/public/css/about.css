@@ -20,7 +20,7 @@
   margin-top: 2rem;
 }
 .skills div{
-  width: 15%;
+  width: 22%;
   float: left;
 }
 .skills div+div{
@@ -31,7 +31,9 @@ list-style-type:circle;
 margin-left: 1.5rem;
 }
 .skills p{
-  border-bottom:#16a6b6 solid 0.1rem ;
+  font-size: 2rem;
+  border-bottom: #ED7700 dashed 0.15rem ;
+  border
   margin-bottom: 2rem;
 }
 
@@ -58,6 +60,16 @@ margin-left: 1.5rem;
   .skills div+div{
     margin-left: 0rem;
     margin-top: 2rem;
+  }
+}
+@media (max-width: 1460px){
+  .skills div{
+    width: 20%;
+  }
+}
+@media (max-width: 900px){
+  .skills div{
+    width: 100%;
   }
 }
 @media (max-width: 675px){

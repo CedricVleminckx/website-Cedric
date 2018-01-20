@@ -1,5 +1,5 @@
 body{
-  background-image: url("../images/start.jpg");
+  background-image: url("../images/railroad.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,6 +17,7 @@ body{
 
 .slogan{
   position: absolute;
+  color: white;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);

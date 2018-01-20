@@ -37,10 +37,10 @@ a{
   background-color: black;
 }
 .nav a:hover{
-  background-color: #16a6b6;
+  background-color: #ED7700;
 }
 .nav .active{
-	background-color: #16a6b6;
+	background-color: #ED7700;
 }
 
 /**Content*/
