@@ -47,3 +47,14 @@ a{
 .title{
   font-size: 3rem;
 }
+
+h1{
+	position: absolute !important;
+	visibility: hidden !important;
+	z-index: -1 !important;
+}
+h2{
+	font-size: 3rem;
+	font-weight: normal;
+	text-decoration: none;
+}

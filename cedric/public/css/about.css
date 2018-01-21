@@ -1,3 +1,8 @@
+.subTitle{
+  font-size: 2rem;
+  border-bottom: #ED7700 dashed 0.15rem ;
+  margin-bottom: 2rem;
+}
 /**Who am I paragraph*/
 #profilePic{
   height: 15rem;
@@ -27,20 +32,15 @@
   margin-left: 4rem;
 }
 .skills ul{
-list-style-type:circle;
-margin-left: 1.5rem;
-}
-.skills p{
-  font-size: 2rem;
-  border-bottom: #ED7700 dashed 0.15rem ;
-  border
-  margin-bottom: 2rem;
+  list-style-type:circle;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
 }
 
 /*Hobby's paragraph*/
 .hobby{
   float: left;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .hobby p:last-of-type{
   width: 100%;
@@ -48,6 +48,32 @@ margin-left: 1.5rem;
 .hobby img{
   width: 49%;
   height: 100%;
+  margin-top: 2rem;
+}
+
+/*Soft skills*/
+.softSkillsPara div{
+  min-height: 10rem;
+}
+.softSkillsPara{
+  margin-top: 4rem;
+  float: left;
+  display: block;
+  width: 100%;
+}
+.softSkillsLeft{
+  width: 47%;
+  float: left;
+}
+.softSkillsLeft div{
+  margin-top: 2rem;
+}
+.softSkillsRight{
+  margin-left: 4rem;
+  width: 47%;
+  float: left;
+}
+.softSkillsRight div{
   margin-top: 2rem;
 }
 

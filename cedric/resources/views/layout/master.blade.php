@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/default.css">
     </head>
     <body>
+      <h1>Cedric Vleminckx</h1>
       <div class="background">
         <div class="nav">
           <ul>
