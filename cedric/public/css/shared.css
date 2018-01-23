@@ -39,14 +39,16 @@ footer div{
   line-height: 10rem;
 }
 footer p{
+	font-size: 1.7rem;
 	color: white;
 }
 
 @media (max-width: 675px){
 	/*navigation*/
 	.nav{
-		width: auto;
-		margin-right: 15.2%;
+		width: 30.4rem;
+		display: block;
+	  margin: auto;
   }
 	.background{
 		background-position: left;

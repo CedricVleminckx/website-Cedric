@@ -37,15 +37,15 @@
   margin-top: 1rem;
 }
 
-/*Hobby's paragraph*/
-.hobby{
+/*hobbyPara's paragraph*/
+.hobbyPara{
   float: left;
   margin-top: 2rem;
 }
-.hobby p:last-of-type{
+.hobbyPara p:last-of-type{
   width: 100%;
 }
-.hobby img{
+.hobbyPara img{
   width: 49%;
   height: 100%;
   margin-top: 2rem;
@@ -78,26 +78,47 @@
 }
 
 /*media query's*/
-@media (max-width: 900px){
-  .skills div{
-    width: 50%;
-    float: none;
-  }
-  .skills div+div{
-    margin-left: 0rem;
-    margin-top: 2rem;
-  }
-}
 @media (max-width: 1460px){
   .skills div{
     width: 20%;
   }
 }
-@media (max-width: 900px){
-  .skills div{
+
+@media (max-width: 975px){
+  /*skills paragraph*/
+	.skillsPara .title{
+		min-width: 110%;
+	}
+  .skillsPara{
     width: 100%;
   }
+  .skills div+div{
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+  .skills div{
+    width: 100%;
+    float: none;
+  }
+
+  .softSkillsPara div{
+    width: 100%;
+  }
+  .softSkillsRight{
+    margin-left: 0;
+  }
+  .softSkillsLeft div{
+    min-height: auto;
+  }
+  .softSkillsRight div{
+    min-height: auto;
+  }
+
+  .hobbyPara{
+    margin-top: 4rem;
+  }
 }
+
 @media (max-width: 675px){
 	/*Who am I*/
   .whoAmI{
@@ -119,8 +140,8 @@
 		width: 100%;
 	}
 
-	/*hobby paragraph*/
-	.hobby img{
+	/*hobbyPara paragraph*/
+	.hobbyPara img{
 	  width: 100%;
 	}
 }

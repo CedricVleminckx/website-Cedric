@@ -18,15 +18,15 @@ About | Cedric Vleminckx
 @endsection
 
 @section('content')
-
+<h2 class="hidden">About me</h2>
 <div class="content">
   <div class="whoAmI">
     <img id="profilePic" src="{{asset('images/cedric3.png')}}" alt="">
-    <h2>Who am I?</h2>
+    <h3 class="title">Who am I?</h3>
     <p>I am Cedric Vleminckx. I&apos;m 20 years old and student at the campus of technology Gent. I&apos;m an enthusiastic developer with a heart for backend applications.</p>
   </div>
   <div class="skillsPara">
-    <h2>What are my skills?</h2>
+    <h3 class="title">What are my skills?</h3>
     <div class="skills">
       <div class="web">
         <p class="subTitle">Web</p>
@@ -62,7 +62,7 @@ About | Cedric Vleminckx
     </div>
   </div>
   <div class="softSkillsPara">
-    <h2>I also have soft skills</h2>
+    <h3 class="title">I also have soft skills</h3>
     <div class="softSkillsLeft">
       <div class="social">
           <p class="subTitle">Social &amp; teamplayer</p>
@@ -84,8 +84,8 @@ About | Cedric Vleminckx
       </div>
     </div>
   </div>
-  <div class="hobby">
-    <h2>Do I have hobbies?</h2>
+  <div class="hobbyPara">
+    <h3 class="title">Do I have hobbies?</h3>
     <p>Yes! I do have hobbies. I practise jiu&#45;jitsu at my local sports hall. In the winter I love to go snowboarding and enjoy the beautiful view of the mountains. In the summer I ride my longboard and I go sailing sometimes.</p>
     <img src="{{asset('/images/snowboard.jpg')}}" alt="view of mountains">
     <img src="{{asset('/images/longboard.jpg')}}" alt="view over water">

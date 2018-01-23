@@ -45,16 +45,27 @@ a{
 
 /**Content*/
 .title{
-  font-size: 3rem;
-}
-
-h1{
-	position: absolute !important;
-	visibility: hidden !important;
-	z-index: -1 !important;
-}
-h2{
 	font-size: 3rem;
 	font-weight: normal;
 	text-decoration: none;
+}
+
+.error{
+ color: red;
+ line-height: 0rem;
+ font-size: 1.3rem;
+ margin-bottom: -0.4rem;
+}
+.notification{
+	width: 20%;
+	padding: 1rem 2rem 1rem 2rem;
+	background-color: #ED7700;
+	margin: auto;
+	margin-top: -3.75rem;
+}
+
+.hidden{
+	position: absolute !important;
+	visibility: hidden !important;
+	z-index: -1 !important;
 }
