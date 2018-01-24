@@ -54,6 +54,7 @@ About | Cedric Vleminckx
       <div class="office">
         <p class="subTitle">Other skills</p>
         <ul>
+          <li>Arduino</li>
           <li>Microsoft Office 365</li>
           <li>Atom (Text editor)</li>
           <li>GIT</li>

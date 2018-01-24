@@ -36,3 +36,15 @@ footer p{
 	font-size: 1.7rem;
 	color: white;
 }
+
+@media (max-width: 675px){
+	/*Navbar background*/
+	.background{
+		background-position: 0% 50%;
+	}
+
+  footer{
+		background-position: bottom;
+		background-attachment: local;
+	}
+}

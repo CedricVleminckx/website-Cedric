@@ -59,6 +59,17 @@ footer{
 }
 
 @media (max-width: 970px){
+  html{
+    position: inherit;
+  }
+  .content{
+    padding-bottom: 10rem;
+  }
+  footer{
+    position: inherit;
+    bottom: auto;
+  }
+
 	.contact{
 	  width: 100%;
     margin-top: 2rem;

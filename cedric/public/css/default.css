@@ -78,11 +78,17 @@ a{
 @media (max-width: 675px){
 	/*navigation*/
 	.nav{
-		width:69.2%;
+		width:30.209rem;
 		display: block;
 	  margin: auto;
   }
-	.background{
-		background-position: left;
-	}
+}
+
+@media (max-width: 400px){
+	/*navigation*/
+	.nav{
+		width:31rem;
+		display: block;
+	  margin: auto;
+  }
 }

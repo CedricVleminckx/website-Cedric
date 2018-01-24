@@ -4,12 +4,16 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 10rem;;
+  min-height: 100%;
   max-width: 100%;
+  overflow: scroll;
 }
-
-.nav{
-  padding-top: 0;
+html{
+  overflow: hidden;
+  height: 100%;
+}
+::-webkit-scrollbar {
+    width: 0px;
 }
 
 .slogan{
@@ -30,4 +34,10 @@ body{
   #name{
     line-height: 5rem;
   }
+}
+@media (max-width: 675px){
+  #name{
+    line-height: 5rem;
+  }
+}
 }
