@@ -9,12 +9,6 @@
   min-width: 100%;
 }
 
-.nav{
-	width: auto;
-  margin-right: 3.7%;
-  padding-top: 3rem;
-}
-
 /**Content wrapper*/
 .content{
   margin-left: 15%;
@@ -41,16 +35,4 @@ footer div{
 footer p{
 	font-size: 1.7rem;
 	color: white;
-}
-
-@media (max-width: 675px){
-	/*navigation*/
-	.nav{
-		width: 30.4rem;
-		display: block;
-	  margin: auto;
-  }
-	.background{
-		background-position: left;
-	}
 }

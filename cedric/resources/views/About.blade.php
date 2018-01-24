@@ -91,11 +91,12 @@ About | Cedric Vleminckx
     <img src="{{asset('/images/longboard.jpg')}}" alt="view over water">
   </div>
 </div>
+@endsection
 
+@section('footer')
 <footer>
   <div class="copy">
     <p>&copy;Cedric Vleminckx 2018</p>
   </div>
 </footer>
-
 @endsection

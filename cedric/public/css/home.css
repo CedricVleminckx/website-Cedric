@@ -8,11 +8,8 @@ body{
   max-width: 100%;
 }
 
-/**navbar*/
 .nav{
-	width: auto;
-  margin-right: 5%;
-  margin-top: 3rem;
+  padding-top: 0;
 }
 
 .slogan{
@@ -32,12 +29,5 @@ body{
 @media (max-width: 960px){
   #name{
     line-height: 5rem;
-  }
-}
-
-@media (max-width: 675px){
-  .nav{
-		width: auto;
-		margin-right: 18%;
   }
 }
